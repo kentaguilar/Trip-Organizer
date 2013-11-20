@@ -1,6 +1,7 @@
 Pogipoints2::Application.routes.draw do
   resources :trips
 
+  root to: 'trips#index'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
